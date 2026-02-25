@@ -13,6 +13,10 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        sans: ['Space Grotesk', 'sans-serif'],
+        mono: ['JetBrains Mono', 'monospace'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -46,6 +50,13 @@ export default {
         card: {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
+        },
+        map: {
+          land: "hsl(var(--map-land))",
+          "land-hover": "hsl(var(--map-land-hover))",
+          ocean: "hsl(var(--map-ocean))",
+          border: "hsl(var(--map-border))",
+          glow: "hsl(var(--map-glow))",
         },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
